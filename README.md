@@ -1,8 +1,7 @@
 # edpx-urmgr
 ========
 
-create
----------
+这个东西主要用于为ur-mgr-fe项目，创建模块和页面，再也不用手动复制粘贴了~
 
 ### Usage
 
@@ -25,14 +24,16 @@ create
 
 创建module或者创建Page
 
-### usage
+### Usage
 
-1. 创建一个叫做banner的module
+1. 进入ur-mgr-fe项目的目录下
+
+2. 创建一个叫做banner的module
 
     `edp urmgr create module banner --title=banner管理`
 
-2. 在模块banner里创建一个使用list模板的Page, 并设为默认页面
+3. 在模块banner里创建一个使用list模板的Page, 并设为默认页面
 
     `edp urmgr create page banner list --title=banner列表 --tpl=list --index
 
-3. 可以开心的开发了~
+4. 可以开心的开发了~
