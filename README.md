@@ -24,6 +24,14 @@
 
 创建module或者创建Page
 
+### Install
+
+```
+git clone https://github.com/beenlee/edpx-urmgr.git
+cd edpx-urmgr
+npm link
+```
+
 ### Usage
 
 1. 进入ur-mgr-fe项目的目录下
