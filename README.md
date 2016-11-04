@@ -34,14 +34,20 @@ npm link
 
 ### Usage
 
+比如pm要我做一个banner列表的管理功能，你可分以下几部完成：
+
 1. 进入ur-mgr-fe项目的目录下
 
-2. 创建一个叫做banner的module
+2. 如果没有banner模块，则创建一个叫做banner的module
 
     `edp urmgr create module banner --title=banner管理`
 
-3. 在模块banner里创建一个使用list模板的Page, 并设为默认页面
+3. 在模块banner里创建一个使用list模板的Page, 并设为nav里的默认入口页面
 
     `edp urmgr create page banner list --title=banner列表 --tpl=list --index
 
 4. 可以开心的开发了~
+
+5. 如果又要加一个banner详情的页面~
+
+    `edp urmgr create page banner detail --title=banner详情 --tpl=detail
