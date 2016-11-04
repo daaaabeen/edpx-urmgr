@@ -1,0 +1,25 @@
+{
+  "name": "edpx-urmgr",
+  "version": "0.0.1",
+  "description": "ur-mgr command tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beenlee/edpx-urmgr.git"
+  },
+  "keywords": [
+    "edp"
+  ],
+  "author": "dianbin.lee@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beenlee/edpx-urmgr/issues"
+  },
+  "homepage": "https://github.com/beenlee/edpx-urmgr",
+  "dependencies": {
+    "edp-core": "^1.0.32"
+  }
+}
