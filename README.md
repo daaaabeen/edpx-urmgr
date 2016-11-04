@@ -1,9 +1,38 @@
-edpx-seed
-=========
-
-edp user command seed
-
-`cli`目录是对外提供的命令，无关紧要的文件建议不要放到这里。
-
-`lib`目录是真正的实现逻辑
 # edpx-urmgr
+========
+
+create
+---------
+
+### Usage
+
+    edp urmgr create module moduleName [--title=title] [--force]
+    edp urmgr create page moduleName pageName [--title=title] [--index] [--force] [--tpl]
+
+### Args
+
++ moduleName - 模块名
++ pageName - 页面名
+
+### Options
+
++ --title - Page或者module的标题。
++ --index - 指定的page为nav里的入口。
++ --force - 强制创建。如果模块或Page目录存在时，指定此选项，将强制删除现有的目录，并重新创建模块或Page。
++ --tpl - 指定Page的模板类型 common、list、detail三种类型，默认为common
+
+### Description
+
+创建module或者创建Page
+
+### usage
+
+1. 创建一个叫做banner的module
+
+    `edp urmgr create module banner --title=banner管理`
+
+2. 在模块banner里创建一个使用list模板的Page, 并设为默认页面
+
+    `edp urmgr create page banner list --title=banner列表 --tpl=list --index
+
+3. 可以开心的开发了~
